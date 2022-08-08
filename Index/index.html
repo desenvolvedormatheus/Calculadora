@@ -4,26 +4,48 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="estilo/header.css" rel="stylesheet" />
+    <link href="estilo/sessao1.css" rel="stylesheet" />
+    <link href="estilo/sessao2.css" rel="stylesheet" />
     <title>Calculadora Simples</title>
 </head>
 <body>
     <main class="corpo">
         <section class="sessao1">
-
-            <button onclick="abrirmenu()" onblur="fecharmenu()" class="btnmenu">
-                o o o
-            </button>
-
+            <button onclick="abrirmenu()" onblur="fecharmenu()" class="btnmenu"></button>
             <ul class="menu">
-                <li>Tema</li>
+                <li onclick="btntema()">Tema</li>
                 <li>Feedback</li>
-                <li>Ajuda</li>
             </ul>
-
+            
+            <ul class="menutema">
+                <li onclick="temaclaro()" >Claro</li>
+                <li onclick="temaescuro()" >Escuro</li>
+            </ul>
+        
+        <input class="entrada" type="number" name="numero" autocomplete="off"/>
         </section>
-
-        <input type="number" name="numero" value="" autocomplete="off"/>
-
+        <section class="sessao2">
+                <div class="item" id="ac">AC</div>
+                <div class="item" id="parenteses">( )</div>
+                <div class="item" id="porcento">%</div>
+                <div class="item" id="dividir">/</div>
+                <div class="num" id="sete" >7</div>
+                <div class="num" id="oito" >8</div>
+                <div class="num" id="nove" >9</div>
+                <div class="item" id="x" >X</div>
+                <div class="num" id="quatro" >4</div>
+                <div class="num" id="cinco" >5</div>
+                <div class="num" id="seis" >6</div>
+                <div class="item" id="menos" >-</div>
+                <div class="num" id="um" >1</div>
+                <div class="num" id="dois" >2</div>
+                <div class="num" id="tres" >3</div>
+                <div class="item" id="mais" >+</div>
+                <div class="num" id="zero" >0</div>
+                <div class="num" id="virgula" >,</div>
+                <div class="num" id="apagar" >Del</div>
+                <div class="item" id="igual" >=</div>
+        </section>
     </main>
     <script src="script/script.js"></script>
 </body>
