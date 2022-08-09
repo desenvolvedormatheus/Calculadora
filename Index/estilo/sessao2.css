@@ -19,7 +19,7 @@
     cursor: pointer;
 }
 .item {
-    background: #00ffff87;
+    background: #00ffff47;
 }
 .item:hover, .num:hover {
     border-radius: 28px;

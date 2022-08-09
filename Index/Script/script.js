@@ -1,3 +1,4 @@
+const entrada = document.querySelector('.entrada')
 const menu = document.querySelector('.menu')
 const menutema = document.querySelector('.menutema')
 const corpo = document.querySelector('.corpo')
@@ -8,8 +9,9 @@ const sessao2 = document.querySelector('.sessao2')
 function abrirmenu() {
     menu.style.right = '0.5rem'
 }
+
 function fecharmenu() {
-    menu.style.right = '-6rem'
+    menu.style.right = '-7rem'
 }
 
 function btntema() {
@@ -34,4 +36,23 @@ function temaclaro() {
     menu.style.background = '#ffffff'
     menutema.style.background = '#ffffff'
     sessao2.style.color = '#000'
+    entrada.style.color = '#000'
 }
+
+
+// Função para pegar os caracteres sem sobrescrever
+function caracter(caracter1) {
+    var caracter2 = document.querySelector('.entrada').innerHTML
+    document.querySelector('.entrada').innerHTML = caracter2 + caracter1
+}
+
+function limpar() {
+    document.querySelector('.entrada').innerHTML = ' '
+}
+
+function apagar() {
+    var apagado = document.querySelector('.entrada').innerHTML
+    document.querySelector('.entrada').innerHTML = apagado.substring(0, apagado.length -1)
+}
+
+temaescuro()

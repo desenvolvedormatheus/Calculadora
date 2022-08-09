@@ -22,29 +22,29 @@
                 <li onclick="temaescuro()" >Escuro</li>
             </ul>
         
-        <input class="entrada" type="number" name="numero" autocomplete="off"/>
+        <p class="entrada" ></p>
         </section>
         <section class="sessao2">
-                <div class="item" id="ac">AC</div>
-                <div class="item" id="parenteses">( )</div>
-                <div class="item" id="porcento">%</div>
-                <div class="item" id="dividir">/</div>
-                <div class="num" id="sete" >7</div>
-                <div class="num" id="oito" >8</div>
-                <div class="num" id="nove" >9</div>
-                <div class="item" id="x" >X</div>
-                <div class="num" id="quatro" >4</div>
-                <div class="num" id="cinco" >5</div>
-                <div class="num" id="seis" >6</div>
-                <div class="item" id="menos" >-</div>
-                <div class="num" id="um" >1</div>
-                <div class="num" id="dois" >2</div>
-                <div class="num" id="tres" >3</div>
-                <div class="item" id="mais" >+</div>
-                <div class="num" id="zero" >0</div>
-                <div class="num" id="virgula" >,</div>
-                <div class="num" id="apagar" >Del</div>
-                <div class="item" id="igual" >=</div>
+                <div class="item" onclick="limpar()">AC</div>
+                <div class="item" onclick="caracter('3,1415')">Pi</div>
+                <div class="item" onclick="caracter('%')">%</div>
+                <div class="item" onclick="caracter('/')">/</div>
+                <div class="num" onclick="caracter('7')">7</div>
+                <div class="num" onclick="caracter('8')">8</div>
+                <div class="num" onclick="caracter('9')" >9</div>
+                <div class="item" onclick="caracter('x')">x</div>
+                <div class="num" onclick="caracter('4')" >4</div>
+                <div class="num" onclick="caracter('5')" >5</div>
+                <div class="num" onclick="caracter('6')" >6</div>
+                <div class="item" onclick="caracter('-')">-</div>
+                <div class="num" onclick="caracter('1')" >1</div>
+                <div class="num" onclick="caracter('2')" >2</div>
+                <div class="num" onclick="caracter('3')" >3</div>
+                <div class="item" onclick="caracter('+')" >+</div>
+                <div class="num" onclick="caracter('0')" >0</div>
+                <div class="num" onclick="caracter(',')" >,</div>
+                <div class="num" onclick="apagar()" ><<</div>
+                <div class="item" onclick="caracter('=')" >=</div>
         </section>
     </main>
     <script src="script/script.js"></script>
