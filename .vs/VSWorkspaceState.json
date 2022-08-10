@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Index",
-    "\\Index\\estilo",
-    "\\Index\\Script"
+    "\\estilo",
+    "\\Script"
   ],
-  "SelectedNode": "\\Index\\Script\\script.js",
+  "SelectedNode": "\\estilo\\sessao1.css",
   "PreviewInSolutionExplorer": false
 }

@@ -4,6 +4,7 @@
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     outline: none;
+    text-decoration: none;
 }
 body {
     width: 100vw;
@@ -19,4 +20,7 @@ body {
     background: #ffffff; /*Tema ----------------------------------------*/
     overflow: hidden;
     border-radius: 10px; 
+}
+a {
+    color: gray;
 }
