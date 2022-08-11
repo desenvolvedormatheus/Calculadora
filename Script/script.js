@@ -51,8 +51,16 @@ function limpar() {
 }
 
 function apagar() {
-    var apagado = document.querySelector('.entrada').innerHTML
+    apagado = document.querySelector('.entrada').innerHTML
     document.querySelector('.entrada').innerHTML = apagado.substring(0, apagado.length -1)
 }
 
-temaescuro()
+function calcular() {
+    var entrada = document.querySelector('.entrada').innerHTML
+    if (entrada) {
+        document.querySelector('.entrada').innerHTML = eval(entrada)
+    }
+    else {
+        document.querySelector('.entrada').innerHTML('')
+    }
+}
