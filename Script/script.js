@@ -43,7 +43,15 @@ function temaclaro() {
 // Função para pegar os caracteres sem sobrescrever
 function caracter(caracter1) {
     var caracter2 = document.querySelector('.entrada').innerHTML
-    document.querySelector('.entrada').innerHTML = caracter2 + caracter1
+    var caracter3 = caracter2 + caracter1
+    document.querySelector('.entrada').innerHTML = caracter3
+    var tamanho = caracter3.length
+
+    tamanho >= 9 ? document.querySelector('.entrada').style.fontSize = "30pt" : document.querySelector('.entrada').style.fontSize = "50pt"
+
+    if (tamanho >= 14) {
+        document.querySelector('.entrada').style.fontSize = "20pt"
+    }
 }
 
 function limpar() {
