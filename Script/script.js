@@ -26,6 +26,7 @@ function temaescuro() {
     menu.style.background = '#232323'
     menutema.style.background = '#232323'
     sessao2.style.color = '#fff'
+    entrada.style.color = '#fff'
 }
 
 function temaclaro() {
@@ -40,16 +41,16 @@ function temaclaro() {
 }
 
 
-// Função para pegar os caracteres sem sobrescrever
+// FunÃ§Ã£o para pegar os caracteres sem sobrescrever
 function caracter(caracter1) {
     var caracter2 = document.querySelector('.entrada').innerHTML
     var caracter3 = caracter2 + caracter1
     document.querySelector('.entrada').innerHTML = caracter3
     var tamanho = caracter3.length
 
-    tamanho >= 9 ? document.querySelector('.entrada').style.fontSize = "30pt" : document.querySelector('.entrada').style.fontSize = "50pt"
+    tamanho >= 6 ? document.querySelector('.entrada').style.fontSize = "30pt" : document.querySelector('.entrada').style.fontSize = "50pt"
 
-    if (tamanho >= 14) {
+    if (tamanho >= 10) {
         document.querySelector('.entrada').style.fontSize = "20pt"
     }
 }

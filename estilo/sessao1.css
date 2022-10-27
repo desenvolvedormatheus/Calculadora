@@ -45,10 +45,9 @@
 .entrada {
     background: transparent; /*Tema ----------------------------------------*/
     color: #fff;
-    height: 5.5rem;
+    min-height: 8rem;
+    width: 18rem;
     margin: 1.5rem 0 1.5rem 0;
-    width: 100%;
     text-align: right;
     font-size: 50pt;
-    padding: 0 0.3rem 0 0.3rem;
 }
