@@ -10,7 +10,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: #000000;
+    background: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,8 +20,13 @@ body {
     width: auto;
     background: #ffffff; /*Tema ----------------------------------------*/
     overflow: hidden;
-    border-radius: 10px; 
+    border: 1px solid rgba(0, 255, 255, 0.278);
+    border-radius: 5px;
+    box-shadow: 0.3rem 0.3rem 0.3rem #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 a {
-    color: gray;
+    color: #808080;
 }

@@ -13,13 +13,13 @@
     justify-content: center;
     height: 3.9rem;
     width: 3.9rem;
-    background: #0000001d;
+    background: #8080805c;
     border-radius: 100%;
     transition: 0.1s;
     cursor: pointer;
 }
 .item {
-    background: #00ffff47;
+    background: rgba(0, 255, 255, 0.278);
 }
 .item:hover, .num:hover {
     border-radius: 28px;
