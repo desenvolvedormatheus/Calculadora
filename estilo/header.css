@@ -1,32 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    outline: none;
-    text-decoration: none;
-    box-sizing: border-box;
-}
-body {
-    width: 100vw;
-    height: 100vh;
-    background: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .corpo {
-    height: auto;
-    width: auto;
     background: #ffffff; /*Tema ----------------------------------------*/
-    overflow: hidden;
-    border: 1px solid rgba(0, 255, 255, 0.278);
-    border-radius: 5px;
+    display: flex; flex-direction: column; align-items: center;
+    border: 1px solid #4A86E5; border-radius: 5px;
+    height: auto; width: auto; overflow: hidden;
     box-shadow: 0.3rem 0.3rem 0.3rem #000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
-a {
-    color: #808080;
-}
+a { color: #4A86E5; }
