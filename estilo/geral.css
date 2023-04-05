@@ -8,4 +8,13 @@ body {
     width: 100vw; height: 100vh;
     display: flex; justify-content: center; align-items: center;
     background: #4A86E5;
+    position: relative;
+}
+footer{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+footer a{
+    color: #fff;
 }
