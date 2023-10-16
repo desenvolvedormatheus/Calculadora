@@ -1,4 +1,4 @@
-const entrada = entrada
+const entrada = document.querySelector(".entrada")
 const menu = document.querySelector('.menu')
 const menutema = document.querySelector('.menutema')
 const corpo = document.querySelector('.corpo')
