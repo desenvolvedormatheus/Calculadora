@@ -57,9 +57,8 @@ function apagar() {
 }
 
 function calcular() {
-    let entrada = entrada.innerHTML
-    if (entrada) {
-        entrada.innerHTML = eval(entrada)
+    if (entrada.innerHTML) {
+        entrada.innerHTML = eval(entrada.innerHTML)
     }
     else {
         entrada.innerHTML('')

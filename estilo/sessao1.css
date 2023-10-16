@@ -32,4 +32,18 @@
     text-align: right; font-size: 50pt; color: #fff;
     min-height: 8rem; width: 18rem;
     margin: 1.5rem 0 1.5rem 0;
+    overflow: auto;
 }
+.entrada::-webkit-scrollbar {
+    height: 10px;               /* width of the entire scrollbar */
+  }
+  
+  .entrada::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+  }
+  
+  .entrada::-webkit-scrollbar-thumb {
+    background-color: #59739e98;    /* color of the scroll thumb */
+    border-radius: 3px;       /* roundness of the scroll thumb */
+    border: none;  /* creates padding around scroll thumb */
+  }
