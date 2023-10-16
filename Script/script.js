@@ -1,4 +1,4 @@
-const entrada = document.querySelector('.entrada')
+const entrada = entrada
 const menu = document.querySelector('.menu')
 const menutema = document.querySelector('.menutema')
 const corpo = document.querySelector('.corpo')
@@ -40,36 +40,28 @@ function temaclaro() {
     entrada.style.color = '#000'
 }
 
-
 // Função para pegar os caracteres sem sobrescrever
 function caracter(caracter1) {
-    var caracter2 = document.querySelector('.entrada').innerHTML
-    var caracter3 = caracter2 + caracter1
-    document.querySelector('.entrada').innerHTML = caracter3
-    var tamanho = caracter3.length
-
-    tamanho >= 6 ? document.querySelector('.entrada').style.fontSize = "30pt" : document.querySelector('.entrada').style.fontSize = "50pt"
-
-    if (tamanho >= 10) {
-        document.querySelector('.entrada').style.fontSize = "20pt"
-    }
+    let caracter2 = entrada.innerHTML
+    let caracter3 = caracter2 + caracter1
+    entrada.innerHTML = caracter3
 }
 
 function limpar() {
-    document.querySelector('.entrada').innerHTML = ' '
+    entrada.innerHTML = ' '
 }
 
 function apagar() {
-    apagado = document.querySelector('.entrada').innerHTML
-    document.querySelector('.entrada').innerHTML = apagado.substring(0, apagado.length -1)
+    apagado = entrada.innerHTML
+    entrada.innerHTML = apagado.substring(0, apagado.length -1)
 }
 
 function calcular() {
-    var entrada = document.querySelector('.entrada').innerHTML
+    let entrada = entrada.innerHTML
     if (entrada) {
-        document.querySelector('.entrada').innerHTML = eval(entrada)
+        entrada.innerHTML = eval(entrada)
     }
     else {
-        document.querySelector('.entrada').innerHTML('')
+        entrada.innerHTML('')
     }
 }
