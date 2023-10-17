@@ -18,6 +18,7 @@ Praticar DOM e lógica de programação.
 
 1. Link do github pages [Calculadora](https://desenvolvedormatheus.github.io/Calculadora/).
 2. Clone este repositório em sua máquina local:
+   * abra o arquivo index.html
    
 ## Autor
 
