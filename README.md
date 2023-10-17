@@ -4,6 +4,8 @@
 ## Sobre o Projeto
 Este é um projeto de calculadora online simples. Esta calculadora pode executar operações matemáticas básicas, como adição, subtração, multiplicação e divisão.
 
+![Calculadora PNG](./Calculadora.png)
+
 ### Objetivo: 
 Praticar DOM e lógica de programação.
 
